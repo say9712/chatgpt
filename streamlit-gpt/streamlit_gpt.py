@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 import os
-api_key = "sk-proj-"
+api_key = "sk-proj-       "
 
 if "messages" not in st.session_state:
     st.session_state.messages = [{"role":"assistant","content":"무엇을 알려드릴까요?"}]
